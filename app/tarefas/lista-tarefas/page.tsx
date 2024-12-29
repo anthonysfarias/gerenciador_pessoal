@@ -1,3 +1,4 @@
+import ListaTarefasTabs from "@/components/lista-taredas-tabs";
 import {
   Breadcrumb,
   BreadcrumbItem,
@@ -19,25 +20,26 @@ export default function Home() {
           <Breadcrumb>
             <BreadcrumbList>
               <BreadcrumbItem className="hidden md:block">
-                <BreadcrumbLink href="#">
-                  Building Your Application
-                </BreadcrumbLink>
+                <BreadcrumbLink href="#">Tarefas</BreadcrumbLink>
               </BreadcrumbItem>
               <BreadcrumbSeparator className="hidden md:block" />
               <BreadcrumbItem>
-                <BreadcrumbPage>Data Fetching</BreadcrumbPage>
+                <BreadcrumbPage>Lista de tarefas</BreadcrumbPage>
               </BreadcrumbItem>
             </BreadcrumbList>
           </Breadcrumb>
         </div>
       </header>
-      <div className="flex flex-1 flex-col gap-4 p-4 pt-0">
-        <div className="grid auto-rows-min gap-4 md:grid-cols-3">
-          <div className="aspect-video rounded-xl bg-muted/50" />
-          <div className="aspect-video rounded-xl bg-muted/50" />
-          <div className="aspect-video rounded-xl bg-muted/50" />
+      <div className="flex items-center py-6 px-5">
+        <div className="flex items-center space-x-4">
+          <div className="text-3xl w-fit bg-primary/20 border-2 border-primary rounded-lg p-3">
+            LT
+          </div>
+          <div className="text-3xl font-bold">Lista de Tarefas</div>
         </div>
-        <div className="min-h-[100vh] flex-1 rounded-xl bg-muted/50 md:min-h-min" />
+      </div>
+      <div className="flex p-4">
+        <ListaTarefasTabs />
       </div>
     </>
   );
