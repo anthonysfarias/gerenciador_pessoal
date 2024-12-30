@@ -12,7 +12,7 @@ const ListaTarefasAccordion = () => {
     <div>
     <Accordion type="multiple" defaultValue={["item-1", "item-2", "item-3"]} className="space-y-8">
       <AccordionItem value="item-1" className="bg-muted/20 rounded-t-lg p-2">
-        <AccordionTrigger className="ml-2 flex items-center justify-start space-x-4"><div className="w-1 h-4 bg-red-500"></div><p>Para fazer </p></AccordionTrigger>
+        <AccordionTrigger className="ml-2 flex items-center justify-start space-x-4"><div className="w-1 h-4 bg-red-500"></div><p>Para fazer</p></AccordionTrigger>
         <AccordionContent className="bg-background rounded-lg p-2">
           <DataTableTarefas />
         </AccordionContent>

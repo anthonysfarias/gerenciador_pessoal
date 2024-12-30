@@ -114,7 +114,7 @@ const data = {
       items: [
         {
           title: "Controle de Gastos",
-          url: "#",
+          url: "/financeiro/controle-gastos",
         },
         {
           title: "Entradas e Saídas",

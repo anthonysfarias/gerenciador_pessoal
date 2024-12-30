@@ -26,7 +26,7 @@ const ListaTarefasTabs = () => {
           <TabsTrigger value="linha-do-tempo"><CalendarClock size={15}/>&nbsp;Linha do tempo</TabsTrigger>
           <TabsTrigger value="kanban"><Kanban size={15}/>&nbsp;Kanban</TabsTrigger>
         </TabsList>
-       
+  
         <Sheet>
           <SheetTrigger asChild>
             <Button><Plus /> nova tarefa</Button>
