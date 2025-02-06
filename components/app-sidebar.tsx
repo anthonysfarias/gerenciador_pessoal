@@ -31,23 +31,23 @@ import {
 // This is sample data.
 const data = {
   user: {
-    name: "shadcn",
+    name: "Anthony",
     email: "m@example.com",
     avatar: "/avatars/shadcn.jpg",
   },
   teams: [
     {
-      name: "Acme Inc",
+      name: "Linux Inc",
       logo: GalleryVerticalEnd,
       plan: "Enterprise",
     },
     {
-      name: "Acme Corp.",
+      name: "Google Corp.",
       logo: AudioWaveform,
       plan: "Startup",
     },
     {
-      name: "Evil Corp.",
+      name: "IBM Corp.",
       logo: Command,
       plan: "Free",
     },
@@ -118,7 +118,7 @@ const data = {
         },
         {
           title: "Entradas e Saídas",
-          url: "#",
+          url: "/financeiro/entrada-saida",
         },
         {
           title: "Relatórios Financeiros",
